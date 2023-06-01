@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:messageapp/screen/calls_screen.dart';
+import 'package:messageapp/screen/chat_screen.dart';
 
 
 class Home extends StatefulWidget {
@@ -44,9 +46,9 @@ class HomeState extends State with SingleTickerProviderStateMixin {
         controller: tabcontroller,
         children: <Widget>[
           Text("Kamera Ekranı"),
-          Text("Sohbet Ekranı"),
+          ChatScreen(),
           Text("Durum Ekranı"),
-          Text("Aramalar Ekranı"),
+          CallsScreen(),
         ],
       ),
       floatingActionButton: FloatingActionButton(
