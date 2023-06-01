@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
       title: "Mesaj Uygulaması",
       theme: ThemeData(
         colorSchemeSeed: Color(0xf406594f),
-        secondaryHeaderColor: Color(0xff007343), // Ana renk
+        secondaryHeaderColor: Color(0xf406594f), // Ana renk
        // colorScheme: ColorScheme.fromSeed(seedColor: Color(0xff340a0a)).copyWith(
          // secondary: const Color(0xf391730b), //Yardımcı renk),
       ),
